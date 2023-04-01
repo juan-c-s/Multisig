@@ -2,3 +2,5 @@ STEPS
 forc init 
 cargo generate --init fuellabs/sway templates/sway-test-rs --name <NAMEOFPROJECT> --force
 cargo test
+
+ACCOUNT password 123456

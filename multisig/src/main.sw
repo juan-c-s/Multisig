@@ -55,6 +55,8 @@ abi MultiSig {
     fn vote(transaction : b256, approve : bool);
      #[storage(read,write)]
     fn constructor(threshold:u64);
+    #[storage(read)]
+    fn get_threshold() -> u64;
 }
 
 impl MultiSig for Contract {
@@ -78,7 +80,8 @@ impl MultiSig for Contract {
     #[storage(read,write)]
     fn constructor(threshold: u64){
         require(!(storage.initialized),Error::AlreadyInitialized);
-        require(threshold<2, Error:: NotValidThreshold);
+        log(threshold);
+        // require(threshold>1, Error:: NotValidThreshold);
         storage.initialized = true;
         storage.threshold = threshold;
     }
@@ -128,5 +131,9 @@ impl MultiSig for Contract {
     //     //require(votacion>=50%)
     //     //require()
     // }
+    #[storage(read)]
+    fn get_threshold() -> u64{
+        storage.threshold
+    }
     
 }

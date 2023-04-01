@@ -1,0 +1,23 @@
+Account1
+PrivateKey= 0xa788033e347172d672ac729b1d654a4afb4810cb783a9db981d52b059fd7ec62
+PublicKey = fuel178myqf03m2e2l6tl9avt0dgw4407d6u0vc909kdh206nd6lywd3sq457ew
+
+Account 2
+PrivateKey= 0x170e47767a06f599a8d7f53514ff963f26d773a4b6ce1cf07cdfc139e400c769
+PublicKey= fuel10ylmhecqwejrxzxzc4d8849xwr3pgdzmk4ah9vy2jspr5zvq0l4qta6hye
+
+Account 3
+PrivateKey= 0xbdaaa680e46e57767fe2c91eda58908e9529a1ab59c8b088bf2462a3483322c7
+PublicKey= fuel1kkvnqayexk99pnmw7d3spyt72k5j5qyqdr5a5xykjy3jj0x0zt6qh7swyj
+
+
+ACCOUNT WALLEt password:  123456
+
+Account 4
+PrivateKey = a2759224b644a0e0e69cec3e40bbb1a6317bf3040493ceb43925f891b7997a7f
+PublicKey = fuel10y6wz65s46ru9ev7n77s8h2mc7m2dn4q456jyrwaev7r95yeja9q4htnkm
+
+
+ContractId
+ID = 0xf821c7df38417b62abc4755ccdedbfb89233d86266461ebeab505eeaedcf9ff6
+
