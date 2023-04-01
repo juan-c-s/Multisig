@@ -1,0 +1,4 @@
+STEPS
+forc init 
+cargo generate --init fuellabs/sway templates/sway-test-rs --name <NAMEOFPROJECT> --force
+cargo test

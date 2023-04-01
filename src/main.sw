@@ -39,7 +39,6 @@ storage{
 }
 
 enum Error{
-    ExampleError :(),
     NotInitialized:(),
     AlreadyInitialized:(),
     NotValidThreshold:(),
